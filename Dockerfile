@@ -16,5 +16,5 @@ COPY . .
 # Expose the port that your application is running on
 EXPOSE 3000
 
-# Command to run the application
+# Command run the application
 CMD ["node", "src/index.js"]
