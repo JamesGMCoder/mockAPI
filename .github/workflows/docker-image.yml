@@ -38,6 +38,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: jamesgm/archer1600vapi:latest
-          cache-from: type=registry,ref=jamesgm/archer1600vapi:cache
-          cache-to: type=registry,ref=jamesgm/archer1600vapi:cache,mode=max
+          tags: jamesgm/archermockapi:latest
+          cache-from: type=registry,ref=jamesgm/archermockapi:cache
+          cache-to: type=registry,ref=jamesgm/archermockapi:cache,mode=max
